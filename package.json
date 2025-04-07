@@ -1,6 +1,6 @@
 {
   "name": "turbo-bio-dubu",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Native TurboModule for biometric authentication",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -24,7 +24,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/turbo-bio.git"
+    "url": "https://github.com/kim-jiha95/turbo-bio.git"
   },
   "author": "Your Name",
   "license": "MIT",
