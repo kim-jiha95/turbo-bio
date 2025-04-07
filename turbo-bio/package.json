@@ -1,0 +1,43 @@
+{
+  "name": "turbo-bio-dubu",
+  "version": "1.0.0",
+  "description": "React Native TurboModule for biometric authentication",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "android/src",
+    "android/build.gradle",
+    "ios",
+    "lib",
+    "turbo-bio.podspec",
+    "!android/build",
+    "!ios/build"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "react-native",
+    "turbo-module",
+    "biometrics",
+    "authentication"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/turbo-bio.git"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+  "codegenConfig": {
+    "name": "TurboBioSpec",
+    "type": "all",
+    "jsSrcsDir": "spec"
+  }
+}

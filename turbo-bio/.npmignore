@@ -1,0 +1,28 @@
+# Source files
+spec/
+
+# Development files
+.eslintrc
+.prettierrc
+.vscode/
+tsconfig.json
+jest.config.js
+
+# Examples
+example/
+
+# Build artifacts
+android/build/
+ios/build/
+
+# Git
+.git
+.gitignore
+
+# Misc
+node_modules/
+.DS_Store
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+*.log
