@@ -20,6 +20,8 @@ Pod::Spec.new do |s|
   # Define the source files extension that we want to recognize
   # Soon, we'll create the ios folder with our module definition
   s.source_files    = "ios/*.{swift,h,m,mm}"
+  s.dependency 'React-Core'
+  s.frameworks = 'LocalAuthentication'
   # This part installs all required dependencies like Fabric, React-Core, etc.
   install_modules_dependencies(s)
 end
