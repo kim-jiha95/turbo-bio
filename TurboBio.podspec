@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.license         = "MIT"
   s.platforms       = { :ios => min_ios_version_supported }
   s.author          = "conner"
-  s.source          = { :git => package["repository"], :tag => "#{s.version}" }
+  s.source          = { :git => package["repository"]["url"], :tag => s.version.to_s }
   # Define the source files extension that we want to recognize
   # Soon, we'll create the ios folder with our module definition
   s.source_files    = "ios/*.{swift,h,m,mm}"
