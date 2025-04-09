@@ -9,6 +9,7 @@
     "android/build.gradle",
     "ios",
     "lib",
+    "spec",
     "TurboBio.podspec",
     "!android/build",
     "!ios/build"
